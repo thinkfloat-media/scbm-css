@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CSS Preview</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#">
+          <img width="64" height="64" src="https://loremflickr.com/64/64/cat" alt="logo-cat" />
+          <h1>Header</h1>
+        </a>
+        <ul>
+          <li>
+            <a href="#" target="_blank">
+              nav 1
+            </a>
+          </li>
+          <li>
+            <a href="/asdfasdfa/asfdds" target="_blank">
+              nav 2
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              nav 3
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank">
+              nav 4
+            </a>
+          </li>
+      </nav>
+    </header>
+    <main>
+      <h1>H1</h1>
+      <h2>H2</h2>
+      <h3>H3</h3>
+      <h4>H4</h4>
+      <h5>H5</h5>
+      <h6>H6</h6>
+      <p>Paragraph</p>
+      <p>Paragraph with breaks <br /> Line Break 1 <br /> line break 2</p>
+      <a href="./index.html">link</a>
+      <article>
+        <h3>H3 in article header</h3>
+        <p>article text</p>
+      </article>
+      <address>
+        <a href="mailto:jim@example.com">jim@example.com</a><br />
+        <a href="tel:+14155550132">+1 (415) 555-0132</a>
+      </address>
+      <table>
+        <caption>
+          Example caption on example table
+        </caption>
+        <thead>
+          <tr>
+            <th>Table Header 1</th>
+            <th>Table Header 2</th>
+            <th>Table Header 3</th>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <td>data1</td>
+            <td>data2</td>
+            <td>data3</td>
+          </tr>
+          <tr>
+            <td>data4</td>
+            <td>data5</td>
+            <td>data6</td>
+          </tr>
+          <tr>
+            <td>data7</td>
+            <td>data8</td>
+            <td>data9</td>
+          </tr>
+        </thead>
+        <tfoot>
+          <td>table footer</td>
+          <td></td>
+          <td></td>
+        </tfoot>
+      </table>
+      <img height="200" width="300" src="https://loremflickr.com/300/200/cat" alt="cat" />
+      <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+      </ul>
+      <ol>
+        <li>ordered list item 1</li>
+        <li>ordered list item 2</li>
+        <li>ordered list item 3</li>
+        <li>ordered list item 4</li>
+      </ol>
+      <form onsubmit="e.preventDefault()">
+        <label for="username">Username
+          <input type="text" id="username" placeholder="Enter username" autocomplete="username">
+        </label>
+        <label for="password_input">Password
+          <input type="password" id="password_input" autocomplete="new-password">
+        </label>
+        <button>Submit</button>
+      </form>
+      <form>
+        <fieldset>
+          <label for="checkbox_input">
+            <input type="checkbox" id="checkbox_input">
+            Checkbox
+          </label>
+          <label for="checkbox_input2">
+            <input type="checkbox" id="checkbox_input2">
+            Checkbox2
+          </label>
+        </fieldset>
+      </form>
+      <form>
+        <label for="color_input">Color
+          <input type="color" id="color_input">
+        </label>
+      </form>
+      <form>
+        <label for="date_input">Date
+          <input type="date" id="date_input">
+        </label>
+      </form>
+      <form>
+        <label for="datetime_local_input">Datetime-Local
+          <input type="datetime-local" id="datetime_local_input">
+        </label>
+      </form>
+      <form>
+        <label for="email_input">Email
+          <input type="email" id="email_input" autocomplete="email">
+        </label>
+      </form>
+      <form>
+        <label for="file_input">File
+          <input type="file" id="file_input">
+        </label>
+      </form>
+      <form>
+        <label for="number_input">Number
+          <input type="number" id="number_input">
+        </label>
+      </form>
+      <form>
+        <fieldset>
+          <label for="radio_input">
+            <input type="radio" id="radio_input" name="test">Radio
+          </label>
+          <label for="radio_input1">
+            <input type="radio" id="radio_input1" name="test">Radio1
+          </label>
+          <label for="radio_input2">
+            <input type="radio" id="radio_input2" name="test">Radio2
+          </label>
+        </fieldset>
+      </form>
+      <form>
+        <label for="range_input">Range
+          <input type="range" id="range_input">
+        </label>
+      </form>
+      <form>
+        <label for="search_input">Search
+          <input type="search" id="search_input">
+        </label>
+      </form>
+      <form>
+        <label for="tel_input">Telephone
+          <input type="tel" id="tel_input" autocomplete="tel">
+        </label>
+      </form>
+      <form>
+        <label for="time_input">Time
+          <input type="time" id="time_input">
+        </label>
+      </form>
+      <form>
+        <label for="week_input">Week
+          <input type="week" id="week_input">
+        </label>
+      </form>
+      <form>
+        <label for="browser">Datalist
+          <input list="browsers" name="browser" id="browser">
+        </label>
+      </form>
+      <form>
+        <label for="select-browser">Select
+          <select name="select-browser" id="select-browser">
+            <option value="Edge">Edge</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Chrome">Chrome</option>
+            <option value="Opera">Opera</option>
+            <option value="Safari">Safari</option>
+            <option value="Internet Explorer">Internet Explorer</option>
+            <option value="Other">Other</option>
+          </select>
+        </label>
+      </form>
+      <form>
+        <label for="textarea-input">Text Area
+          <textarea rows="5" id="textarea-input"></textarea>
+        </label>
+      </form>
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+    </main>
+    <footer>Footer</footer>
+  </body>
+</html>
